@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Red Rectangles</title>
+  <style type="text/css">
+    html{
+      background-color:#eee
+    }
+    body{
+      margin:40px auto;
+      max-width: 650px;
+      line-height:1.6;
+      font-size:18px;
+      color:#222;
+      padding:0 10px;
+    }
+    h1,h2,h3{
+      line-height:1.2
+    }
+  </style>
+</head>
+<body>
+
+<!-- Automatically generated from index.markdown -->
+
+<h1>Red Rectangles</h1>
+<p>I draw inspiration from Malevich's "8 Red Rectangles", and appropriately draw
+several red rectangles.</p>
+<h2>Sketches</h2>
+<ul>
+<li><a href="red_rectangles.html">Here</a>, I do a first approximation. There are several
+  things I like here. This is the first javascript class I've ever written. The
+  logic is actually a bit complicated, but rather nice.</li>
+<li><a href="red_rectangles_large.html">Here</a>, I have additional logic that makes the
+  rectangles generically larger.</li>
+</ul>
+<h2>Thoughts</h2>
+<p>I have implemented within this logic for drawing several rectangles randomly
+that do not intersect each other. That's nice.</p>
+<p>The logic for filling the available area is non-trivial in principle --- I did a
+poor approximation. So my rectangles will never fill the corners of the image. I
+should take a moment and really try to understand where the actual boundaries
+are, and do a better job of placing rectangles within the entire canvas.</p>
+
+
+</body>
+</html>
