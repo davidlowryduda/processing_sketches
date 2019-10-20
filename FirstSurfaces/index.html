@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A randomly defined surface</title>
+  <style type="text/css">
+    html{
+      background-color:#eee
+    }
+    body{
+      margin:40px auto;
+      max-width: 650px;
+      line-height:1.6;
+      font-size:18px;
+      color:#222;
+      padding:0 10px;
+    }
+    h1,h2,h3{
+      line-height:1.2
+    }
+  </style>
+</head>
+<body>
+
+<!-- Automatically generated from index.markdown -->
+
+<h1>Random surface</h1>
+<p>The idea here is interesting. Plot a sequence of points that are
+Perlin-noise-deviated from circles, where the noise depends on the x-coordinate
+of the center of the (non-deviated) circle. Drawing these circles, allowing
+later circles to overlap the earlier ones, has the appearance of drawing a 3d
+shape slice by slice.</p>
+<p>There is a lot to play with here.</p>
+<h2>Sketches</h2>
+<ul>
+<li>In <a href="basicsurface.html">this sketch</a>, I draw a surface with some smoothing done
+  near the sides to make it closed on both ends. The downside is that there end
+  up being more level curves near the two ends, so it looks a bit odd.</li>
+</ul>
+
+
+</body>
+</html>
