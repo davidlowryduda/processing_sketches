@@ -15,6 +15,8 @@ several red rectangles.
   logic is actually a bit complicated, but rather nice.
 - [Here](red_rectangles_large.html), I have additional logic that makes the
   rectangles generically larger.
+- [Here](red_rectangles_not_too_large.html), I also prevent rectangles that are
+  too too large from appearing.
 
 
 ## Thoughts
