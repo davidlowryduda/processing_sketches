@@ -17,6 +17,12 @@ this stuff.
     * [Here](lewitt_11_rand_threshold.html) is Lewitt 11 with extra randomness
       and some extra color. The sensation of depth and complexity is deep.
 - [Here](lewitt_16.html) is LeWitt 16, a classic formed from 3 sets of lines.
+    * [Here](lewitt_16_motion.html) is LeWitt 16 with sinusoidal motion.
+    * [Here](lewitt_16_motion_study.html) is a motion study of LeWitt 16. On
+      each refresh, directions are randomly chosen for the three segments, and
+      they move in that direction.
+    * [Here](lewitt_16_motion_noise.html) is a non-uniform study of motion for
+      LeWitt 16. I find this one slightly unsettling as well.
 - [Here](lewitt_17.html) is LeWitt 17. Four squares, each with a fundamental
   line direction.
     * [This](unexpected_lewitt_17.html) is LeWitt 17, but with a little twist.
