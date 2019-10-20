@@ -19,6 +19,8 @@ this stuff.
 - [Here](lewitt_16.html) is LeWitt 16, a classic formed from 3 sets of lines.
 - [Here](lewitt_17.html) is LeWitt 17. Four squares, each with a fundamental
   line direction.
+    * [This](unexpected_lewitt_17.html) is LeWitt 17, but with a little twist.
+      After staring at many LeWitts for a day, it's like a practical joke.
 - [Here](lewitt_46.html) is LeWitt 46. A canvas with many non-intersecting
   scribbles.
 - [Here](lewitt_46_alive.html) is LeWitt 46, but where the scribbles slowly
