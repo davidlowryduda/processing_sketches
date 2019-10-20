@@ -21,6 +21,8 @@ this stuff.
   line direction.
     * [This](unexpected_lewitt_17.html) is LeWitt 17, but with a little twist.
       After staring at many LeWitts for a day, it's like a practical joke.
+    * [This](unexpected_lewitt_17_borderless.html) is LeWitt 17, but without the
+      rectangular borders drawn.
 - [Here](lewitt_46.html) is LeWitt 46. A canvas with many non-intersecting
   scribbles.
 - [Here](lewitt_46_alive.html) is LeWitt 46, but where the scribbles slowly
