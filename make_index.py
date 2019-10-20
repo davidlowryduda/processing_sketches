@@ -85,7 +85,7 @@ def main():
 
     with open("index.markdown", "r") as inputfile:
         lines = inputfile.readlines()
-    lines = list(map(lambda x: x.strip(), lines))
+    lines = list(map(lambda x: x.rstrip(), lines))
 
     # Make sure first line is non-empty
     first_line_empty = True
