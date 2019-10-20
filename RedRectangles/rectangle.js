@@ -26,9 +26,9 @@ class Rectangle {
     }
     else {
       push();
-      translate(3*this.x/2, 3*this.y/2);
+      translate(this.x + this.width, this.y + this.height);
       rotate(random(-0.1, 0.1));
-      rect(-this.x/2, -this.y/2, this.width, this.height);
+      rect(-this.width, -this.height, this.width, this.height);
       pop();
     }
   }
