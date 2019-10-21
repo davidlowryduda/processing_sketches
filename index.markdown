@@ -25,3 +25,8 @@ in 2d space.
 
 [Here](RedRectangles/), I draw red rectangles. This is substantially more
 complicated than the rest of the logic.
+
+
+## Tangents
+
+[This page](Tangents/) has tangent envelopes to curves.
