@@ -20,3 +20,16 @@ In this study, we sketch many tangent lines to curves.
   in [this sketch](exp_sine_curve.html)
 - And [here](random_curve.html), we alter the exponential and sine factors in a
   random way. It may take a few refreshes to get something interesting.
+- Adding noise and rythm yields [this sketch](random_curve_noise.html), which I
+  find rather entrancing.
+
+
+## Thoughts
+
+I would like to do the same thing for a different set of random functions. It
+would be nice to perhaps generate something like a noise-defined degree 8
+polynomial fit and do it with that, or something. Maybe.
+
+There is a whole worls of color to play with. And consider making noise defined
+functions that allow one to have an infinite scrolling-effect, which might be
+super cool.
