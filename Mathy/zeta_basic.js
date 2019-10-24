@@ -1,7 +1,7 @@
-let scale = 200;
+let scale = 300;
 
 function setup() {
-  createCanvas(700, 700);
+  createCanvas(1000, 600);
   background(255);
   stroke(20);
   strokeWeight(2);
@@ -43,14 +43,22 @@ function lines_to(x, y) {
   beginShape();
   curx = 0;
   cury = height/2;
+
+  let nextx, nexty;
+
+  noStroke();
   for (let xy of xys) {
-    curx += xy[0];
-    cury += xy[1];
-    stroke(curred, curgreen, curblue);
-    vertex(curx, cury);
+    nextx = curx + xy[0];
+    nexty = cury + xy[1];
+    line(curx, cury, nextx, nexty);
+
+    curx = nextx;
+    cury = nexty;
+
     curred = (curred + 40) % 256;
     curblue = (curblue + 80) % 256;
     curgreen = (curgreen + 90) % 256;
+    stroke(curred, curgreen, curblue);
   }
   //console.log(x/scale, (y-height/2)/scale, curx/scale);
   endShape();
