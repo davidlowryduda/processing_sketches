@@ -19,11 +19,11 @@ function setup() {
 
 let squarewidth = 18;
 let pad = 8;
-let threshold = 0.35;
-let fill_threshold = 0.30;
+let threshold = 0.0;
+let fill_threshold = 0.0;
 let noise_offset = 1000;
 let continuity = .2;
-let noise_scale = 10;
+let noise_scale = 32;
 
 function thisnoise(x, y) {
   return noise_scale * noise(x*continuity, noise_offset + y*continuity);
@@ -33,8 +33,8 @@ function draw() {
   noFill();
   background(backgroundcolor);
   let index;
-  for (let i=5; i<(width-squarewidth); i+=(squarewidth+pad)) {
-    for (let j=5; j<(width-squarewidth); j+=(squarewidth+pad)) {
+  for (let i=5; i<(width-2*squarewidth); i+=(squarewidth+pad)) {
+    for (let j=5; j<(width-2*squarewidth); j+=(squarewidth+pad)) {
       if (random() > threshold) {
         index = random([0, 1, 2, 3]);
         stroke(colors[index]);
