@@ -47,7 +47,8 @@ function draw() {
         quad(
           i + thisnoise(i, j), j + thisnoise(i, j),
           i + thisnoise(i, j+squarewidth), j + squarewidth + thisnoise(i, j+squarewidth),
-          i + squarewidth + thisnoise(i+squarewidth, j), j + squarewidth + thisnoise(i, j+squarewidth),
+          i + squarewidth + thisnoise(i+squarewidth, j+squarewidth),
+            j + squarewidth + thisnoise(i+squarewidth, j+squarewidth),
           i + squarewidth + thisnoise(i+squarewidth, j), j + thisnoise(i+squarewidth, j)
         );
       }
