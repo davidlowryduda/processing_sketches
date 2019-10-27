@@ -30,3 +30,18 @@ complicated than the rest of the logic.
 ## Tangents
 
 [This page](Tangents/) has tangent envelopes to curves.
+
+
+## Grids
+
+[This page](Grids/) has things occurring roughly in grids.
+
+
+## Mathy stuff
+
+[This page](Mathy/) is for heavily math-inspired things.
+
+
+## CWD
+
+[CWD](Current/) for current experiments.
