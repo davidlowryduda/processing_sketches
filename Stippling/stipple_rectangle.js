@@ -26,10 +26,10 @@ class StippleRectangle {
       for (let yy = this.y - rectwidth; yy <= (this.y + this.h); yy += rectwidth) {
         for (let index = 0; index < points_per_rect; index++) {
           push();
-          translate(xx, yy);
+          translate(xx + 3*noise(0.2*index), yy + 3*noise(0.3*index + 100));
           point(
-            2.0 * rectwidth * noise(1.5*xx + 2*index, 1.3*yy + 300),
-            2.0 * rectwidth * noise(1.2*xx + 500, 1.6*yy + 2.1*index + 800)
+            2.3 * rectwidth * noise(1.5*xx + 2*index, 1.3*yy + .5*index + 300),
+            2.2 * rectwidth * noise(1.2*xx + index + 500, 1.6*yy + 2.1*index + 800)
           );
           pop();
         }
