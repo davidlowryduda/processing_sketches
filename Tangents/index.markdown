@@ -22,6 +22,9 @@ In this study, we sketch many tangent lines to curves.
   random way. It may take a few refreshes to get something interesting.
 - Adding noise and rythm yields [this sketch](random_curve_noise.html), which I
   find rather entrancing.
+- Going in a different direction: in [this
+  sketch](sine_by_parabolas_envelope.html) we plot the sine and many of its
+  quadratic approximators. Also glorious.
 
 
 ## Thoughts
