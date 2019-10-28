@@ -31,6 +31,10 @@ complicated than the rest of the logic.
 
 [This page](Tangents/) has tangent envelopes to curves.
 
+## Stippling
+
+[This page](Stippling/) is about stippling experiments.
+
 
 ## Grids
 
