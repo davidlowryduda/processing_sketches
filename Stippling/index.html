@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stippling Sketches</title>
+  <style type="text/css">
+    html{
+      background-color:#eee
+    }
+    body{
+      margin:40px auto;
+      max-width: 650px;
+      line-height:1.6;
+      font-size:18px;
+      color:#222;
+      padding:0 10px;
+    }
+    h1,h2,h3{
+      line-height:1.2
+    }
+  </style>
+</head>
+<body>
+
+<!-- Automatically generated from index.markdown -->
+
+<h1>Stippling</h1>
+<p>We begin a set of sketches based around a technique of stippling. This technique
+is noise-based and computationally very fast --- but I now see it has the
+downside of not giving beautifully uniform stippling. Thus this is something to
+return to should I ever decide to implement a better stippling algorithm.
+(The naive one where one looks at lots and lots of points and checks that none
+are too near might even be just fine for not-too-many-points).</p>
+<h2>Sketches</h2>
+<ul>
+<li>In <a href="basic_stippling.html">this sketch</a>, we have some basic stippling.</li>
+<li>Compare that to <a href="random_dots.html">this sketch</a>, which has randomness instead
+  of uniformity.</li>
+<li><a href="stipple_class.html">This sketch</a> is actually a test of a stipple rectangle
+  class I wrote.</li>
+<li><a href="stipple_stripes.html">This sketch</a> uses that class to produce a set of
+  stripes. Note that for higher density, it's not-quite uniform.</li>
+</ul>
+<h3>Ideas</h3>
+<p><a href="stipple_art.html">Art</a> is supposed to hold some additional markings, like a set
+of cubic curves or something. The cubic interpolator class was written for this.</p>
+
+
+</body>
+</html>
